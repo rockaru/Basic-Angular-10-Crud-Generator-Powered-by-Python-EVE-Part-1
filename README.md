@@ -8,4 +8,4 @@ Make sure you have an instance of MongoDB running and start the server
 
 `python run.py`
 
-Read how to create the above API project on Medium
+Read how to create the above API project on [Medium](https://medium.com/@rockaru/basic-angular-10-crud-generator-powered-by-python-eve-part-1-225e235ff54a?source=friends_link&sk=b1710370d961f4541243e1883e4b4e63)
