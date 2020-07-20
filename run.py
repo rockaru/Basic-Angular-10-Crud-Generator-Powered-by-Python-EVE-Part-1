@@ -2,13 +2,13 @@ from eve import Eve
 from eve.io.mongo import Validator
 
 class MyValidator(Validator):
-        def _validate_create(self):
+        def _validate_create(self, alias, field, value):
                 """ {'type': 'boolean'} """
                 pass
-        def _validate_read(self):
+        def _validate_read(self, alias, field, value):
                 """ {'type': 'boolean'} """
                 pass
-        def _validate_update(self):
+        def _validate_update(self, alias, field, value):
                 """ {'type': 'boolean'} """
                 pass
 
