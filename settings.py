@@ -12,8 +12,8 @@ SCHEMA_ENDPOINT = 'form'
 
 cats = {
         'item_title': 'cat',
-        'cache_control': 'max-age=10,must-revalidate',
-        'cache_expires': 10,
+        'cache_control': 'max-age=0,must-revalidate',
+        'cache_expires': 1,
         'schema':{
                 'name': {
                         'type': 'string',
@@ -36,8 +36,8 @@ cats = {
 
 dogs = {
         'item_title': 'dog',
-        'cache_control': 'max-age=10,must-revalidate',
-        'cache_expires': 10,
+        'cache_control': 'max-age=0,must-revalidate',
+        'cache_expires': 1,
         'schema':{
                 'name': {
                         'type': 'string',
