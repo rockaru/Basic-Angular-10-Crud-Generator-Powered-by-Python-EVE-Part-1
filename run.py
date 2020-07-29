@@ -11,6 +11,19 @@ class MyValidator(Validator):
         def _validate_update(self, alias, field, value):
                 """ {'type': 'boolean'} """
                 pass
+        def _validate_delete(self, alias, field, value):
+                """ {'type': 'boolean'} """
+                pass
+        def _validate_detail(self, alias, field, value):
+                """ {'type': 'boolean'} """
+                pass
+        def _validate_input(self, alias, field, value):
+                """ {'type': 'string'} """
+                pass
+        def _validate_icon(self, alias, field, value):
+                """ {'type': 'string'} """
+                pass
+        
 
 app = Eve(validator=MyValidator)
 

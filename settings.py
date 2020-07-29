@@ -19,17 +19,23 @@ cats = {
                         'type': 'string',
                         'minlength': 1,
                         'maxlength': 10,
+                        'input':'text'
                         'create': True,
                         'read': True,
-                        'update': False
+                        'update': False,
+                        'delete':True,
+                        'detail':True
                 },
                 'description': {
                         'type': 'string',
                         'minlength': 1,
                         'maxlength': 200,
+                        'input':'textarea',
                         'create': True,
                         'read': True,
-                        'update': True
+                        'update': True,
+                        'delete':True,
+                        'detail':True
                 }
         }
 }
@@ -43,17 +49,23 @@ dogs = {
                         'type': 'string',
                         'minlength': 1,
                         'maxlength': 10,
+                        'input':'text',
                         'create': True,
                         'read': True,
-                        'update': False
+                        'update': False,
+                        'delete':True,
+                        'detail':True
                 },
                 'description': {
                         'type': 'string',
                         'minlength': 1,
                         'maxlength': 200,
+                        'input':'textarea',
                         'create': True,
                         'read': True,
-                        'update': True
+                        'update': True,
+                        'delete':True,
+                        'detail':True
                 }
         }
 }
